@@ -1,0 +1,12 @@
+{
+    "name": "data-version-test",
+    "version": "0.0.1",
+    "description": "Data Version Test",
+    "scripts": {
+        "start": "NODE_ENV=development webpack-dev-server --https",
+        "build": "NODE_ENV=production webpack; create-quip-app pack ./app"
+    },
+    "devDependencies": {
+        "quip-apps-webpack-config": ">=0.0.39"
+    }
+}

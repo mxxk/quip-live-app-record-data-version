@@ -1,0 +1,12 @@
+{
+    "id": "INSERT YOUR OWN LIVE APP ID HERE",
+    "manifest_version": 1,
+    "name": "Data Version Test",
+    "version_name": "1.0",
+    "version_number": 1,
+    "sizing_mode": "fit_content",
+    "initial_height": 300,
+    "initial_width": 300,
+    "js_files": ["dist/app.js"],
+    "disable_app_level_comments": true
+}
